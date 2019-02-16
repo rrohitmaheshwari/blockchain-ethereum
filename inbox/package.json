@@ -4,8 +4,14 @@
   "description": "ethereum sample application called inbox",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "author": "Rohit Maheshwari",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "ganache-cli": "^6.3.0",
+    "mocha": "^5.2.0",
+    "solc": "^0.4.25",
+    "web3": "^1.0.0-beta.35"
+  }
 }
